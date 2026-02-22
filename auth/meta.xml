@@ -1,0 +1,1069 @@
+<meta>
+    <script src="global.lua" type="server" />
+    <script src="global.lua" type="client" cache="false" />
+    
+    <script src="roundedRect.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="login.lua" type="client" cache="false" />
+    <!-- <script src="c_create_character.lua" type="client" cache="false" /> -->
+    <script src="server.lua" type="server" />
+    <!-- <script src="anticheat.lua" type="server" cache='false'/> -->
+	<file src="img/music.mp3"/>
+	<script src="shared.lua" type="shared" cache="false"></script>
+    <script src="f10-settings\c_options.lua" type="client" cache="false" />
+    <script src="f10-settings\s_options.lua" type="server"/>    
+
+	<script src="f10-settings\c_f10_settings.lua" type="client" cache="false" />
+	<script src="f10-settings\s_f10_settings.lua" type="server" />
+
+	<file src="bg.png"></file>
+	<file src="load.jpg"></file>
+    <file src="music/good4u.mp3"></file>
+    <file src="music/lipaphy.mp3"></file>
+    <file src="music/lilmontero.mp3"></file>
+    <file src="music/rampap.mp3"></file>
+    <file src="music/lovetonight.mp3"></file>
+    <file src="music/astronaut.mp3"></file>
+
+	<file src="loginFiles/play.png"></file>
+    <file src="loginFiles/pause.png"></file>
+    <file src="loginFiles/arrow.png"></file>
+    <file src="loginFiles/ferfi.png"></file>
+    <file src="loginFiles/no.png"></file>
+    <file src="loginFiles/next-track.png"></file>
+    <file src="loginFiles/logo.png"></file>
+    <file src="loginFiles/logo1.png"></file>
+    <file src="loginFiles/logo2.png"></file>
+    <file src="loginFiles/v2_icons/check.png"></file>
+    <file src="loginFiles/v2_icons/login.png"></file>
+    <file src="loginFiles/v2_icons/mail.png"></file>
+    <file src="loginFiles/v2_icons/pw.png"></file>
+    <file src="loginFiles/v2_icons/reg.png"></file>
+    <file src="loginFiles/v2_icons/toggle.png"></file>
+    <file src="loginFiles/v2_icons/user.png"></file>
+    <file src="loginFiles/v2_icons/invite.png"></file>
+    <file src="loginFiles/v2_icons/volume.png"></file>
+    <file src="loginFiles/v2_icons/mute.png"></file>
+    <file src="loginFiles/v2_icons/loading.png"></file>
+    <file src="loginFiles/v2_icons/name.png"></file>
+    <file src="loginFiles/v2_icons/age.png"></file>
+    <file src="loginFiles/v2_icons/height.png"></file>
+    <file src="loginFiles/v2_icons/weight.png"></file>
+    <file src="loginFiles/v2_icons/borncity.png"></file>
+
+    <file src="loginFiles/peds/0.png"></file>
+    <file src="loginFiles/peds/1.png"></file>
+    <file src="loginFiles/peds/2.png"></file>
+    <file src="loginFiles/peds/7.png"></file>
+    <file src="loginFiles/peds/9.png"></file>
+    <file src="loginFiles/peds/10.png"></file>
+    <file src="loginFiles/peds/11.png"></file>
+    <file src="loginFiles/peds/12.png"></file>
+    <file src="loginFiles/peds/13.png"></file>
+    <file src="loginFiles/peds/14.png"></file>
+    <file src="loginFiles/peds/15.png"></file>
+    <file src="loginFiles/peds/16.png"></file>
+    <file src="loginFiles/peds/17.png"></file>
+    <file src="loginFiles/peds/18.png"></file>
+    <file src="loginFiles/peds/19.png"></file>
+    <file src="loginFiles/peds/20.png"></file>
+    <file src="loginFiles/peds/21.png"></file>
+    <file src="loginFiles/peds/22.png"></file>
+    <file src="loginFiles/peds/23.png"></file>
+    <file src="loginFiles/peds/24.png"></file>
+    <file src="loginFiles/peds/25.png"></file>
+    <file src="loginFiles/peds/26.png"></file>
+    <file src="loginFiles/peds/27.png"></file>
+    <file src="loginFiles/peds/28.png"></file>
+    <file src="loginFiles/peds/29.png"></file>
+    <file src="loginFiles/peds/30.png"></file>
+    <file src="loginFiles/peds/31.png"></file>
+    <file src="loginFiles/peds/32.png"></file>
+    <file src="loginFiles/peds/33.png"></file>
+    <file src="loginFiles/peds/34.png"></file>
+    <file src="loginFiles/peds/35.png"></file>
+    <file src="loginFiles/peds/36.png"></file>
+    <file src="loginFiles/peds/37.png"></file>
+    <file src="loginFiles/peds/38.png"></file>
+    <file src="loginFiles/peds/39.png"></file>
+    <file src="loginFiles/peds/40.png"></file>
+    <file src="loginFiles/peds/41.png"></file>
+    <file src="loginFiles/peds/43.png"></file>
+    <file src="loginFiles/peds/44.png"></file>
+    <file src="loginFiles/peds/45.png"></file>
+    <file src="loginFiles/peds/46.png"></file>
+    <file src="loginFiles/peds/47.png"></file>
+    <file src="loginFiles/peds/48.png"></file>
+    <file src="loginFiles/peds/49.png"></file>
+    <file src="loginFiles/peds/50.png"></file>
+    <file src="loginFiles/peds/51.png"></file>
+    <file src="loginFiles/peds/52.png"></file>
+    <file src="loginFiles/peds/53.png"></file>
+    <file src="loginFiles/peds/54.png"></file>
+    <file src="loginFiles/peds/55.png"></file>
+    <file src="loginFiles/peds/56.png"></file>
+    <file src="loginFiles/peds/57.png"></file>
+    <file src="loginFiles/peds/58.png"></file>
+    <file src="loginFiles/peds/59.png"></file>
+    <file src="loginFiles/peds/60.png"></file>
+    <file src="loginFiles/peds/61.png"></file>
+    <file src="loginFiles/peds/62.png"></file>
+    <file src="loginFiles/peds/63.png"></file>
+    <file src="loginFiles/peds/64.png"></file>
+    <file src="loginFiles/peds/66.png"></file>
+    <file src="loginFiles/peds/67.png"></file>
+    <file src="loginFiles/peds/68.png"></file>
+    <file src="loginFiles/peds/69.png"></file>
+    <file src="loginFiles/peds/70.png"></file>
+    <file src="loginFiles/peds/71.png"></file>
+    <file src="loginFiles/peds/72.png"></file>
+    <file src="loginFiles/peds/73.png"></file>
+    <file src="loginFiles/peds/75.png"></file>
+    <file src="loginFiles/peds/76.png"></file>
+    <file src="loginFiles/peds/77.png"></file>
+    <file src="loginFiles/peds/78.png"></file>
+    <file src="loginFiles/peds/79.png"></file>
+    <file src="loginFiles/peds/80.png"></file>
+    <file src="loginFiles/peds/81.png"></file>
+    <file src="loginFiles/peds/82.png"></file>
+    <file src="loginFiles/peds/83.png"></file>
+    <file src="loginFiles/peds/84.png"></file>
+    <file src="loginFiles/peds/85.png"></file>
+    <file src="loginFiles/peds/87.png"></file>
+    <file src="loginFiles/peds/88.png"></file>
+    <file src="loginFiles/peds/89.png"></file>
+    <file src="loginFiles/peds/90.png"></file>
+    <file src="loginFiles/peds/91.png"></file>
+    <file src="loginFiles/peds/92.png"></file>
+    <file src="loginFiles/peds/93.png"></file>
+    <file src="loginFiles/peds/94.png"></file>
+    <file src="loginFiles/peds/95.png"></file>
+    <file src="loginFiles/peds/96.png"></file>
+    <file src="loginFiles/peds/97.png"></file>
+    <file src="loginFiles/peds/98.png"></file>
+    <file src="loginFiles/peds/99.png"></file>
+    <file src="loginFiles/peds/100.png"></file>
+    <file src="loginFiles/peds/101.png"></file>
+    <file src="loginFiles/peds/102.png"></file>
+    <file src="loginFiles/peds/103.png"></file>
+    <file src="loginFiles/peds/104.png"></file>
+    <file src="loginFiles/peds/105.png"></file>
+    <file src="loginFiles/peds/106.png"></file>
+    <file src="loginFiles/peds/107.png"></file>
+    <file src="loginFiles/peds/108.png"></file>
+    <file src="loginFiles/peds/109.png"></file>
+    <file src="loginFiles/peds/110.png"></file>
+    <file src="loginFiles/peds/111.png"></file>
+    <file src="loginFiles/peds/112.png"></file>
+    <file src="loginFiles/peds/113.png"></file>
+    <file src="loginFiles/peds/114.png"></file>
+    <file src="loginFiles/peds/115.png"></file>
+    <file src="loginFiles/peds/116.png"></file>
+    <file src="loginFiles/peds/117.png"></file>
+    <file src="loginFiles/peds/118.png"></file>
+    <file src="loginFiles/peds/120.png"></file>
+    <file src="loginFiles/peds/121.png"></file>
+    <file src="loginFiles/peds/122.png"></file>
+    <file src="loginFiles/peds/123.png"></file>
+    <file src="loginFiles/peds/124.png"></file>
+    <file src="loginFiles/peds/125.png"></file>
+    <file src="loginFiles/peds/126.png"></file>
+    <file src="loginFiles/peds/127.png"></file>
+    <file src="loginFiles/peds/128.png"></file>
+    <file src="loginFiles/peds/129.png"></file>
+    <file src="loginFiles/peds/130.png"></file>
+    <file src="loginFiles/peds/131.png"></file>
+    <file src="loginFiles/peds/132.png"></file>
+    <file src="loginFiles/peds/133.png"></file>
+    <file src="loginFiles/peds/134.png"></file>
+    <file src="loginFiles/peds/135.png"></file>
+    <file src="loginFiles/peds/136.png"></file>
+    <file src="loginFiles/peds/137.png"></file>
+    <file src="loginFiles/peds/138.png"></file>
+    <file src="loginFiles/peds/139.png"></file>
+    <file src="loginFiles/peds/140.png"></file>
+    <file src="loginFiles/peds/141.png"></file>
+    <file src="loginFiles/peds/142.png"></file>
+    <file src="loginFiles/peds/143.png"></file>
+    <file src="loginFiles/peds/144.png"></file>
+    <file src="loginFiles/peds/145.png"></file>
+    <file src="loginFiles/peds/146.png"></file>
+    <file src="loginFiles/peds/147.png"></file>
+    <file src="loginFiles/peds/148.png"></file>
+    <file src="loginFiles/peds/150.png"></file>
+    <file src="loginFiles/peds/151.png"></file>
+    <file src="loginFiles/peds/152.png"></file>
+    <file src="loginFiles/peds/153.png"></file>
+    <file src="loginFiles/peds/154.png"></file>
+    <file src="loginFiles/peds/155.png"></file>
+    <file src="loginFiles/peds/156.png"></file>
+    <file src="loginFiles/peds/157.png"></file>
+    <file src="loginFiles/peds/158.png"></file>
+    <file src="loginFiles/peds/159.png"></file>
+    <file src="loginFiles/peds/160.png"></file>
+    <file src="loginFiles/peds/161.png"></file>
+    <file src="loginFiles/peds/162.png"></file>
+    <file src="loginFiles/peds/163.png"></file>
+    <file src="loginFiles/peds/164.png"></file>
+    <file src="loginFiles/peds/165.png"></file>
+    <file src="loginFiles/peds/166.png"></file>
+    <file src="loginFiles/peds/167.png"></file>
+    <file src="loginFiles/peds/168.png"></file>
+    <file src="loginFiles/peds/169.png"></file>
+    <file src="loginFiles/peds/170.png"></file>
+    <file src="loginFiles/peds/171.png"></file>
+    <file src="loginFiles/peds/172.png"></file>
+    <file src="loginFiles/peds/173.png"></file>
+    <file src="loginFiles/peds/174.png"></file>
+    <file src="loginFiles/peds/175.png"></file>
+    <file src="loginFiles/peds/176.png"></file>
+    <file src="loginFiles/peds/177.png"></file>
+    <file src="loginFiles/peds/178.png"></file>
+    <file src="loginFiles/peds/179.png"></file>
+    <file src="loginFiles/peds/180.png"></file>
+    <file src="loginFiles/peds/181.png"></file>
+    <file src="loginFiles/peds/182.png"></file>
+    <file src="loginFiles/peds/183.png"></file>
+    <file src="loginFiles/peds/184.png"></file>
+    <file src="loginFiles/peds/185.png"></file>
+    <file src="loginFiles/peds/186.png"></file>
+    <file src="loginFiles/peds/187.png"></file>
+    <file src="loginFiles/peds/188.png"></file>
+    <file src="loginFiles/peds/189.png"></file>
+    <file src="loginFiles/peds/190.png"></file>
+    <file src="loginFiles/peds/191.png"></file>
+    <file src="loginFiles/peds/192.png"></file>
+    <file src="loginFiles/peds/193.png"></file>
+    <file src="loginFiles/peds/194.png"></file>
+    <file src="loginFiles/peds/195.png"></file>
+    <file src="loginFiles/peds/196.png"></file>
+    <file src="loginFiles/peds/197.png"></file>
+    <file src="loginFiles/peds/198.png"></file>
+    <file src="loginFiles/peds/199.png"></file>
+    <file src="loginFiles/peds/200.png"></file>
+    <file src="loginFiles/peds/201.png"></file>
+    <file src="loginFiles/peds/202.png"></file>
+    <file src="loginFiles/peds/203.png"></file>
+    <file src="loginFiles/peds/204.png"></file>
+    <file src="loginFiles/peds/205.png"></file>
+    <file src="loginFiles/peds/206.png"></file>
+    <file src="loginFiles/peds/207.png"></file>
+    <file src="loginFiles/peds/209.png"></file>
+    <file src="loginFiles/peds/210.png"></file>
+    <file src="loginFiles/peds/211.png"></file>
+    <file src="loginFiles/peds/212.png"></file>
+    <file src="loginFiles/peds/213.png"></file>
+    <file src="loginFiles/peds/214.png"></file>
+    <file src="loginFiles/peds/215.png"></file>
+    <file src="loginFiles/peds/216.png"></file>
+    <file src="loginFiles/peds/217.png"></file>
+    <file src="loginFiles/peds/218.png"></file>
+    <file src="loginFiles/peds/219.png"></file>
+    <file src="loginFiles/peds/220.png"></file>
+    <file src="loginFiles/peds/221.png"></file>
+    <file src="loginFiles/peds/222.png"></file>
+    <file src="loginFiles/peds/223.png"></file>
+    <file src="loginFiles/peds/224.png"></file>
+    <file src="loginFiles/peds/225.png"></file>
+    <file src="loginFiles/peds/226.png"></file>
+    <file src="loginFiles/peds/227.png"></file>
+    <file src="loginFiles/peds/228.png"></file>
+    <file src="loginFiles/peds/229.png"></file>
+    <file src="loginFiles/peds/230.png"></file>
+    <file src="loginFiles/peds/231.png"></file>
+    <file src="loginFiles/peds/232.png"></file>
+    <file src="loginFiles/peds/233.png"></file>
+    <file src="loginFiles/peds/234.png"></file>
+    <file src="loginFiles/peds/235.png"></file>
+    <file src="loginFiles/peds/236.png"></file>
+    <file src="loginFiles/peds/237.png"></file>
+    <file src="loginFiles/peds/238.png"></file>
+    <file src="loginFiles/peds/239.png"></file>
+    <file src="loginFiles/peds/240.png"></file>
+    <file src="loginFiles/peds/241.png"></file>
+    <file src="loginFiles/peds/242.png"></file>
+    <file src="loginFiles/peds/243.png"></file>
+    <file src="loginFiles/peds/244.png"></file>
+    <file src="loginFiles/peds/245.png"></file>
+    <file src="loginFiles/peds/246.png"></file>
+    <file src="loginFiles/peds/247.png"></file>
+    <file src="loginFiles/peds/248.png"></file>
+    <file src="loginFiles/peds/249.png"></file>
+    <file src="loginFiles/peds/250.png"></file>
+    <file src="loginFiles/peds/251.png"></file>
+    <file src="loginFiles/peds/252.png"></file>
+    <file src="loginFiles/peds/253.png"></file>
+    <file src="loginFiles/peds/254.png"></file>
+    <file src="loginFiles/peds/255.png"></file>
+    <file src="loginFiles/peds/256.png"></file>
+    <file src="loginFiles/peds/257.png"></file>
+    <file src="loginFiles/peds/258.png"></file>
+    <file src="loginFiles/peds/259.png"></file>
+    <file src="loginFiles/peds/260.png"></file>
+    <file src="loginFiles/peds/261.png"></file>
+    <file src="loginFiles/peds/262.png"></file>
+    <file src="loginFiles/peds/263.png"></file>
+    <file src="loginFiles/peds/264.png"></file>
+    <file src="loginFiles/peds/265.png"></file>
+    <file src="loginFiles/peds/266.png"></file>
+    <file src="loginFiles/peds/267.png"></file>
+    <file src="loginFiles/peds/268.png"></file>
+    <file src="loginFiles/peds/269.png"></file>
+    <file src="loginFiles/peds/270.png"></file>
+    <file src="loginFiles/peds/271.png"></file>
+    <file src="loginFiles/peds/272.png"></file>
+    <file src="loginFiles/peds/274.png"></file>
+    <file src="loginFiles/peds/275.png"></file>
+    <file src="loginFiles/peds/276.png"></file>
+    <file src="loginFiles/peds/277.png"></file>
+    <file src="loginFiles/peds/278.png"></file>
+    <file src="loginFiles/peds/279.png"></file>
+    <file src="loginFiles/peds/280.png"></file>
+    <file src="loginFiles/peds/281.png"></file>
+    <file src="loginFiles/peds/282.png"></file>
+    <file src="loginFiles/peds/283.png"></file>
+    <file src="loginFiles/peds/284.png"></file>
+    <file src="loginFiles/peds/285.png"></file>
+    <file src="loginFiles/peds/286.png"></file>
+    <file src="loginFiles/peds/287.png"></file>
+    <file src="loginFiles/peds/288.png"></file>
+    <file src="loginFiles/peds/290.png"></file>
+    <file src="loginFiles/peds/291.png"></file>
+    <file src="loginFiles/peds/292.png"></file>
+    <file src="loginFiles/peds/293.png"></file>
+    <file src="loginFiles/peds/294.png"></file>
+    <file src="loginFiles/peds/295.png"></file>
+    <file src="loginFiles/peds/296.png"></file>
+    <file src="loginFiles/peds/297.png"></file>
+    <file src="loginFiles/peds/298.png"></file>
+    <file src="loginFiles/peds/299.png"></file>
+    <file src="loginFiles/peds/300.png"></file>
+    <file src="loginFiles/peds/301.png"></file>
+    <file src="loginFiles/peds/302.png"></file>
+    <file src="loginFiles/peds/303.png"></file>
+    <file src="loginFiles/peds/304.png"></file>
+    <file src="loginFiles/peds/305.png"></file>
+    <file src="loginFiles/peds/306.png"></file>
+    <file src="loginFiles/peds/307.png"></file>
+    <file src="loginFiles/peds/308.png"></file>
+    <file src="loginFiles/peds/309.png"></file>
+    <file src="loginFiles/peds/310.png"></file>
+    <file src="loginFiles/peds/311.png"></file>
+    <file src="loginFiles/peds/312.png"></file>
+
+    <file src="avatars/1.png"></file>
+    <file src="avatars/2.png"></file>
+    <file src="avatars/3.png"></file>
+    <file src="avatars/4.png"></file>
+    <file src="avatars/5.png"></file>
+    <file src="avatars/6.png"></file>
+    <file src="avatars/7.png"></file>
+    <file src="avatars/8.png"></file>
+    <file src="avatars/9.png"></file>
+    <file src="avatars/10.png"></file>
+    <file src="avatars/11.png"></file>
+    <file src="avatars/12.png"></file>
+    <file src="avatars/13.png"></file>
+    <file src="avatars/14.png"></file>
+    <file src="avatars/15.png"></file>
+    <file src="avatars/16.png"></file>
+    <file src="avatars/17.png"></file>
+    <file src="avatars/18.png"></file>
+    <file src="avatars/19.png"></file>
+    <file src="avatars/20.png"></file>
+    <file src="avatars/21.png"></file>
+    <file src="avatars/22.png"></file>
+    <file src="avatars/23.png"></file>
+    <file src="avatars/24.png"></file>
+    <file src="avatars/25.png"></file>
+    <file src="avatars/26.png"></file>
+    <file src="avatars/27.png"></file>
+    <file src="avatars/28.png"></file>
+    <file src="avatars/29.png"></file>
+    <file src="avatars/30.png"></file>
+    <file src="avatars/31.png"></file>
+    <file src="avatars/32.png"></file>
+    <file src="avatars/33.png"></file>
+    <file src="avatars/34.png"></file>
+    <file src="avatars/35.png"></file>
+    <file src="avatars/36.png"></file>
+    <file src="avatars/37.png"></file>
+    <file src="avatars/38.png"></file>
+    <file src="avatars/39.png"></file>
+    <file src="avatars/40.png"></file>
+    <file src="avatars/41.png"></file>
+    <file src="avatars/42.png"></file>
+    <file src="avatars/43.png"></file>
+    <file src="avatars/44.png"></file>
+    <file src="avatars/45.png"></file>
+    <file src="avatars/46.png"></file>
+    <file src="avatars/47.png"></file>
+    <file src="avatars/48.png"></file>
+    <file src="avatars/49.png"></file>
+    <file src="avatars/50.png"></file>
+
+
+    <file src='lua/components/gfx/banner1.jpg' />
+    <file src='lua/components/gfx/banner2.jpg' />
+    <file src='lua/components/gfx/banner3.jpg' />
+    <file src='lua/components/gfx/banner4.jpg' />
+    <file src='lua/components/gfx/banner5.jpg' />
+    <file src='lua/components/gfx/logo.png' />
+    <file src='lua/components/gfx/icons/arrowR.png' />
+    <file src='lua/components/gfx/icons/arrowL.png' />
+	
+	<file src="files/bong.mp3"></file>
+    <file src="files/key.mp3"></file>
+    <file src="files/bubble.mp3"></file>
+    <file src="files/loading.mp3"></file>
+    <file src="files/beep.mp3"></file>
+    <file src="files/left.png"></file>
+    <file src="files/arrowLeft.png"></file>
+    <file src="files/arrowRight.png"></file>
+    <file src="files/pen.png"></file>
+    <file src="files/close.png"></file>
+    <file src="files/right.png"></file>
+    <file src="files/toggleoff.png"></file>
+    <file src="files/toggleon.png"></file>
+    <file src="files/male.png"></file>
+    <file src="files/female.png"></file>
+    <file src="files/africa.png"></file>
+    <file src="files/asia.png"></file>
+    <file src="files/american.png"></file>
+    <file src="files/europe.png"></file>
+    <file src="files/logo.png"></file>
+    <file src="files/logo2.png"></file>
+    <file src="files/bg.jpg"></file>
+    <file src="files/characterCreate.png"></file>
+    <file src="files/characterCreated.png"></file>
+    <file src="files/characterHeight.png"></file>
+    <file src="files/characterWeight.png"></file>
+    <file src="files/characterAge.png"></file>
+    <file src="files/comeBack.png"></file>
+
+    <file src="img/add_icon.png" />
+    <file src="img/character_background.png" />
+    <file src="img/character_background_active.png" />
+    <file src="img/lights.png" />
+    <file src="img/loading.png" />
+    <file src="img/logo.png" />
+    <!-- <file src="img/Rota.png" /> -->
+    <file src="img/logo_1.png" />
+    <file src="img/logo_2.png" />
+    <file src="img/000.png" />
+    <file src="img/007.png" />
+    <file src="img/009.png" />
+    <file src="img/010.png" />
+    <file src="img/011.png" />
+    <file src="img/012.png" />
+    <file src="img/013.png" />
+    <file src="img/014.png" />
+    <file src="img/015.png" />
+    <file src="img/016.png" />
+    <file src="img/017.png" />
+    <file src="img/018.png" />
+    <file src="img/019.png" />
+    <file src="img/020.png" />
+    <file src="img/021.png" />
+    <file src="img/022.png" />
+    <file src="img/023.png" />
+    <file src="img/024.png" />
+    <file src="img/025.png" />
+    <file src="img/026.png" />
+    <file src="img/027.png" />
+    <file src="img/028.png" />
+    <file src="img/029.png" />
+    <file src="img/030.png" />
+    <file src="img/031.png" />
+    <file src="img/032.png" />
+    <file src="img/033.png" />
+    <file src="img/034.png" />
+    <file src="img/035.png" />
+    <file src="img/036.png" />
+    <file src="img/037.png" />
+    <file src="img/038.png" />
+    <file src="img/039.png" />
+    <file src="img/040.png" />
+    <file src="img/041.png" />
+    <file src="img/043.png" />
+    <file src="img/044.png" />
+    <file src="img/045.png" />
+    <file src="img/046.png" />
+    <file src="img/047.png" />
+    <file src="img/048.png" />
+    <file src="img/049.png" />
+    <file src="img/050.png" />
+    <file src="img/051.png" />
+    <file src="img/052.png" />
+    <file src="img/053.png" />
+    <file src="img/054.png" />
+    <file src="img/055.png" />
+    <file src="img/056.png" />
+    <file src="img/057.png" />
+    <file src="img/058.png" />
+    <file src="img/059.png" />
+    <file src="img/060.png" />
+    <file src="img/061.png" />
+    <file src="img/062.png" />
+    <file src="img/063.png" />
+    <file src="img/064.png" />
+    <file src="img/066.png" />
+    <file src="img/067.png" />
+    <file src="img/068.png" />
+    <file src="img/069.png" />
+    <file src="img/070.png" />
+    <file src="img/071.png" />
+    <file src="img/072.png" />
+    <file src="img/073.png" />
+    <file src="img/075.png" />
+    <file src="img/076.png" />
+    <file src="img/077.png" />
+    <file src="img/078.png" />
+    <file src="img/079.png" />
+    <file src="img/080.png" />
+    <file src="img/081.png" />
+    <file src="img/082.png" />
+    <file src="img/083.png" />
+    <file src="img/084.png" />
+    <file src="img/085.png" />
+    <file src="img/087.png" />
+    <file src="img/088.png" />
+    <file src="img/089.png" />
+    <file src="img/090.png" />
+    <file src="img/091.png" />
+    <file src="img/092.png" />
+    <file src="img/093.png" />
+    <file src="img/094.png" />
+    <file src="img/095.png" />
+    <file src="img/096.png" />
+    <file src="img/097.png" />
+    <file src="img/098.png" />
+    <file src="img/099.png" />
+    <file src="img/100.png" />
+    <file src="img/101.png" />
+    <file src="img/102.png" />
+    <file src="img/103.png" />
+    <file src="img/104.png" />
+    <file src="img/105.png" />
+    <file src="img/106.png" />
+    <file src="img/107.png" />
+    <file src="img/108.png" />
+    <file src="img/109.png" />
+    <file src="img/110.png" />
+    <file src="img/111.png" />
+    <file src="img/112.png" />
+    <file src="img/113.png" />
+    <file src="img/114.png" />
+    <file src="img/115.png" />
+    <file src="img/116.png" />
+    <file src="img/117.png" />
+    <file src="img/118.png" />
+    <file src="img/120.png" />
+    <file src="img/121.png" />
+    <file src="img/122.png" />
+    <file src="img/123.png" />
+    <file src="img/124.png" />
+    <file src="img/125.png" />
+    <file src="img/126.png" />
+    <file src="img/127.png" />
+    <file src="img/128.png" />
+    <file src="img/129.png" />
+    <file src="img/130.png" />
+    <file src="img/131.png" />
+    <file src="img/132.png" />
+    <file src="img/133.png" />
+    <file src="img/134.png" />
+    <file src="img/135.png" />
+    <file src="img/136.png" />
+    <file src="img/137.png" />
+    <file src="img/138.png" />
+    <file src="img/139.png" />
+    <file src="img/140.png" />
+    <file src="img/141.png" />
+    <file src="img/142.png" />
+    <file src="img/143.png" />
+    <file src="img/144.png" />
+    <file src="img/145.png" />
+    <file src="img/146.png" />
+    <file src="img/147.png" />
+    <file src="img/148.png" />
+    <file src="img/150.png" />
+    <file src="img/151.png" />
+    <file src="img/152.png" />
+    <file src="img/153.png" />
+    <file src="img/154.png" />
+    <file src="img/155.png" />
+    <file src="img/156.png" />
+    <file src="img/157.png" />
+    <file src="img/158.png" />
+    <file src="img/159.png" />
+    <file src="img/160.png" />
+    <file src="img/161.png" />
+    <file src="img/162.png" />
+    <file src="img/163.png" />
+    <file src="img/164.png" />
+    <file src="img/165.png" />
+    <file src="img/166.png" />
+    <file src="img/167.png" />
+    <file src="img/168.png" />
+    <file src="img/169.png" />
+    <file src="img/170.png" />
+    <file src="img/171.png" />
+    <file src="img/172.png" />
+    <file src="img/173.png" />
+    <file src="img/174.png" />
+    <file src="img/175.png" />
+    <file src="img/176.png" />
+    <file src="img/177.png" />
+    <file src="img/178.png" />
+    <file src="img/179.png" />
+    <file src="img/180.png" />
+    <file src="img/181.png" />
+    <file src="img/182.png" />
+    <file src="img/183.png" />
+    <file src="img/184.png" />
+    <file src="img/185.png" />
+    <file src="img/186.png" />
+    <file src="img/187.png" />
+    <file src="img/188.png" />
+    <file src="img/189.png" />
+    <file src="img/190.png" />
+    <file src="img/191.png" />
+    <file src="img/192.png" />
+    <file src="img/193.png" />
+    <file src="img/194.png" />
+    <file src="img/195.png" />
+    <file src="img/196.png" />
+    <file src="img/197.png" />
+    <file src="img/198.png" />
+    <file src="img/199.png" />
+    <file src="img/200.png" />
+    <file src="img/201.png" />
+    <file src="img/202.png" />
+    <file src="img/203.png" />
+    <file src="img/204.png" />
+    <file src="img/205.png" />
+    <file src="img/206.png" />
+    <file src="img/207.png" />
+    <file src="img/209.png" />
+    <file src="img/210.png" />
+    <file src="img/211.png" />
+    <file src="img/212.png" />
+    <file src="img/213.png" />
+    <file src="img/214.png" />
+    <file src="img/215.png" />
+    <file src="img/216.png" />
+    <file src="img/217.png" />
+    <file src="img/218.png" />
+    <file src="img/219.png" />
+    <file src="img/220.png" />
+    <file src="img/221.png" />
+    <file src="img/222.png" />
+    <file src="img/223.png" />
+    <file src="img/224.png" />
+    <file src="img/225.png" />
+    <file src="img/226.png" />
+    <file src="img/227.png" />
+    <file src="img/228.png" />
+    <file src="img/229.png" />
+    <file src="img/230.png" />
+    <file src="img/231.png" />
+    <file src="img/232.png" />
+    <file src="img/233.png" />
+    <file src="img/234.png" />
+    <file src="img/235.png" />
+    <file src="img/236.png" />
+    <file src="img/237.png" />
+    <file src="img/238.png" />
+    <file src="img/239.png" />
+    <file src="img/240.png" />
+    <file src="img/241.png" />
+    <file src="img/242.png" />
+    <file src="img/243.png" />
+    <file src="img/244.png" />
+    <file src="img/245.png" />
+    <file src="img/246.png" />
+    <file src="img/247.png" />
+    <file src="img/248.png" />
+    <file src="img/249.png" />
+    <file src="img/250.png" />
+    <file src="img/251.png" />
+    <file src="img/252.png" />
+    <file src="img/253.png" />
+    <file src="img/254.png" />
+    <file src="img/255.png" />
+    <file src="img/256.png" />
+    <file src="img/257.png" />
+    <file src="img/258.png" />
+    <file src="img/259.png" />
+    <file src="img/260.png" />
+    <file src="img/261.png" />
+    <file src="img/262.png" />
+    <file src="img/263.png" />
+    <file src="img/264.png" />
+    <file src="img/274.png" />
+    <file src="img/275.png" />
+    <file src="img/276.png" />
+    <file src="img/277.png" />
+    <file src="img/278.png" />
+    <file src="img/279.png" />
+    <file src="img/280.png" />
+    <file src="img/281.png" />
+    <file src="img/282.png" />
+    <file src="img/283.png" />
+    <file src="img/284.png" />
+    <file src="img/285.png" />
+    <file src="img/286.png" />
+    <file src="img/287.png" />
+    <file src="img/288.png" />
+    <file src="img/nil.png" />
+    <file src="img/001.png" />
+    <file src="img/002.png" />
+    <file src="img/265.png" />
+    <file src="img/266.png" />
+    <file src="img/267.png" />
+    <file src="img/268.png" />
+    <file src="img/269.png" />
+    <file src="img/270.png" />
+    <file src="img/271.png" />
+    <file src="img/272.png" />
+    <file src="img/290.png" />
+    <file src="img/291.png" />
+    <file src="img/292.png" />
+    <file src="img/293.png" />
+    <file src="img/294.png" />
+    <file src="img/295.png" />
+    <file src="img/296.png" />
+    <file src="img/297.png" />
+    <file src="img/298.png" />
+    <file src="img/299.png" />
+    <file src="img/300.png" />
+    <file src="img/301.png" />
+    <file src="img/302.png" />
+    <file src="img/303.png" />
+    <file src="img/304.png" />
+    <file src="img/305.png" />
+    <file src="img/306.png" />
+    <file src="img/307.png" />
+    <file src="img/308.png" />
+    <file src="img/309.png" />
+    <file src="img/310.png" />
+    <file src="img/311.png" />
+    <file src="img/312.png" />
+
+    <file src='components/skins/0.png' type='server'/>
+    <file src='components/skins/1.png' type='server'/>
+    <file src='components/skins/2.png' type='server'/>
+    <file src='components/skins/7.png' type='server'/>
+    <file src='components/skins/9.png' type='server'/>
+    <file src='components/skins/10.png' type='server'/>
+    <file src='components/skins/11.png' type='server'/>
+    <file src='components/skins/12.png' type='server'/>
+    <file src='components/skins/13.png' type='server'/>
+    <file src='components/skins/14.png' type='server'/>
+    <file src='components/skins/15.png' type='server'/>
+    <file src='components/skins/16.png' type='server'/>
+    <file src='components/skins/17.png' type='server'/>
+    <file src='components/skins/18.png' type='server'/>
+    <file src='components/skins/19.png' type='server'/>
+    <file src='components/skins/20.png' type='server'/>
+    <file src='components/skins/21.png' type='server'/>
+    <file src='components/skins/22.png' type='server'/>
+    <file src='components/skins/23.png' type='server'/>
+    <file src='components/skins/24.png' type='server'/>
+    <file src='components/skins/25.png' type='server'/>
+    <file src='components/skins/26.png' type='server'/>
+    <file src='components/skins/27.png' type='server'/>
+    <file src='components/skins/28.png' type='server'/>
+    <file src='components/skins/29.png' type='server'/>
+    <file src='components/skins/30.png' type='server'/>
+    <file src='components/skins/31.png' type='server'/>
+    <file src='components/skins/32.png' type='server'/>
+    <file src='components/skins/33.png' type='server'/>
+    <file src='components/skins/34.png' type='server'/>
+    <file src='components/skins/35.png' type='server'/>
+    <file src='components/skins/36.png' type='server'/>
+    <file src='components/skins/37.png' type='server'/>
+    <file src='components/skins/38.png' type='server'/>
+    <file src='components/skins/39.png' type='server'/>
+    <file src='components/skins/40.png' type='server'/>
+    <file src='components/skins/41.png' type='server'/>
+    <file src='components/skins/43.png' type='server'/>
+    <file src='components/skins/44.png' type='server'/>
+    <file src='components/skins/45.png' type='server'/>
+    <file src='components/skins/46.png' type='server'/>
+    <file src='components/skins/47.png' type='server'/>
+    <file src='components/skins/48.png' type='server'/>
+    <file src='components/skins/49.png' type='server'/>
+    <file src='components/skins/50.png' type='server'/>
+    <file src='components/skins/51.png' type='server'/>
+    <file src='components/skins/52.png' type='server'/>
+    <file src='components/skins/53.png' type='server'/>
+    <file src='components/skins/54.png' type='server'/>
+    <file src='components/skins/55.png' type='server'/>
+    <file src='components/skins/56.png' type='server'/>
+    <file src='components/skins/57.png' type='server'/>
+    <file src='components/skins/58.png' type='server'/>
+    <file src='components/skins/59.png' type='server'/>
+    <file src='components/skins/60.png' type='server'/>
+    <file src='components/skins/61.png' type='server'/>
+    <file src='components/skins/62.png' type='server'/>
+    <file src='components/skins/63.png' type='server'/>
+    <file src='components/skins/64.png' type='server'/>
+    <file src='components/skins/66.png' type='server'/>
+    <file src='components/skins/67.png' type='server'/>
+    <file src='components/skins/68.png' type='server'/>
+    <file src='components/skins/69.png' type='server'/>
+    <file src='components/skins/70.png' type='server'/>
+    <file src='components/skins/71.png' type='server'/>
+    <file src='components/skins/72.png' type='server'/>
+    <file src='components/skins/73.png' type='server'/>
+    <file src='components/skins/75.png' type='server'/>
+    <file src='components/skins/76.png' type='server'/>
+    <file src='components/skins/77.png' type='server'/>
+    <file src='components/skins/78.png' type='server'/>
+    <file src='components/skins/79.png' type='server'/>
+    <file src='components/skins/80.png' type='server'/>
+    <file src='components/skins/81.png' type='server'/>
+    <file src='components/skins/82.png' type='server'/>
+    <file src='components/skins/83.png' type='server'/>
+    <file src='components/skins/84.png' type='server'/>
+    <file src='components/skins/85.png' type='server'/>
+    <file src='components/skins/87.png' type='server'/>
+    <file src='components/skins/88.png' type='server'/>
+    <file src='components/skins/89.png' type='server'/>
+    <file src='components/skins/90.png' type='server'/>
+    <file src='components/skins/91.png' type='server'/>
+    <file src='components/skins/92.png' type='server'/>
+    <file src='components/skins/93.png' type='server'/>
+    <file src='components/skins/94.png' type='server'/>
+    <file src='components/skins/95.png' type='server'/>
+    <file src='components/skins/96.png' type='server'/>
+    <file src='components/skins/97.png' type='server'/>
+    <file src='components/skins/98.png' type='server'/>
+    <file src='components/skins/99.png' type='server'/>
+    <file src='components/skins/100.png' type='server'/>
+    <file src='components/skins/101.png' type='server'/>
+    <file src='components/skins/102.png' type='server'/>
+    <file src='components/skins/103.png' type='server'/>
+    <file src='components/skins/104.png' type='server'/>
+    <file src='components/skins/105.png' type='server'/>
+    <file src='components/skins/106.png' type='server'/>
+    <file src='components/skins/107.png' type='server'/>
+    <file src='components/skins/108.png' type='server'/>
+    <file src='components/skins/109.png' type='server'/>
+    <file src='components/skins/110.png' type='server'/>
+    <file src='components/skins/111.png' type='server'/>
+    <file src='components/skins/112.png' type='server'/>
+    <file src='components/skins/113.png' type='server'/>
+    <file src='components/skins/114.png' type='server'/>
+    <file src='components/skins/115.png' type='server'/>
+    <file src='components/skins/116.png' type='server'/>
+    <file src='components/skins/117.png' type='server'/>
+    <file src='components/skins/118.png' type='server'/>
+    <file src='components/skins/120.png' type='server'/>
+    <file src='components/skins/121.png' type='server'/>
+    <file src='components/skins/122.png' type='server'/>
+    <file src='components/skins/123.png' type='server'/>
+    <file src='components/skins/124.png' type='server'/>
+    <file src='components/skins/125.png' type='server'/>
+    <file src='components/skins/126.png' type='server'/>
+    <file src='components/skins/127.png' type='server'/>
+    <file src='components/skins/128.png' type='server'/>
+    <file src='components/skins/129.png' type='server'/>
+    <file src='components/skins/130.png' type='server'/>
+    <file src='components/skins/131.png' type='server'/>
+    <file src='components/skins/132.png' type='server'/>
+    <file src='components/skins/133.png' type='server'/>
+    <file src='components/skins/134.png' type='server'/>
+    <file src='components/skins/135.png' type='server'/>
+    <file src='components/skins/136.png' type='server'/>
+    <file src='components/skins/137.png' type='server'/>
+    <file src='components/skins/138.png' type='server'/>
+    <file src='components/skins/139.png' type='server'/>
+    <file src='components/skins/140.png' type='server'/>
+    <file src='components/skins/141.png' type='server'/>
+    <file src='components/skins/142.png' type='server'/>
+    <file src='components/skins/143.png' type='server'/>
+    <file src='components/skins/144.png' type='server'/>
+    <file src='components/skins/145.png' type='server'/>
+    <file src='components/skins/146.png' type='server'/>
+    <file src='components/skins/147.png' type='server'/>
+    <file src='components/skins/148.png' type='server'/>
+    <file src='components/skins/150.png' type='server'/>
+    <file src='components/skins/151.png' type='server'/>
+    <file src='components/skins/152.png' type='server'/>
+    <file src='components/skins/153.png' type='server'/>
+    <file src='components/skins/154.png' type='server'/>
+    <file src='components/skins/155.png' type='server'/>
+    <file src='components/skins/156.png' type='server'/>
+    <file src='components/skins/157.png' type='server'/>
+    <file src='components/skins/158.png' type='server'/>
+    <file src='components/skins/159.png' type='server'/>
+    <file src='components/skins/160.png' type='server'/>
+    <file src='components/skins/161.png' type='server'/>
+    <file src='components/skins/162.png' type='server'/>
+    <file src='components/skins/163.png' type='server'/>
+    <file src='components/skins/164.png' type='server'/>
+    <file src='components/skins/165.png' type='server'/>
+    <file src='components/skins/166.png' type='server'/>
+    <file src='components/skins/167.png' type='server'/>
+    <file src='components/skins/168.png' type='server'/>
+    <file src='components/skins/169.png' type='server'/>
+    <file src='components/skins/170.png' type='server'/>
+    <file src='components/skins/171.png' type='server'/>
+    <file src='components/skins/172.png' type='server'/>
+    <file src='components/skins/173.png' type='server'/>
+    <file src='components/skins/174.png' type='server'/>
+    <file src='components/skins/175.png' type='server'/>
+    <file src='components/skins/176.png' type='server'/>
+    <file src='components/skins/177.png' type='server'/>
+    <file src='components/skins/178.png' type='server'/>
+    <file src='components/skins/179.png' type='server'/>
+    <file src='components/skins/180.png' type='server'/>
+    <file src='components/skins/181.png' type='server'/>
+    <file src='components/skins/182.png' type='server'/>
+    <file src='components/skins/183.png' type='server'/>
+    <file src='components/skins/184.png' type='server'/>
+    <file src='components/skins/185.png' type='server'/>
+    <file src='components/skins/186.png' type='server'/>
+    <file src='components/skins/187.png' type='server'/>
+    <file src='components/skins/188.png' type='server'/>
+    <file src='components/skins/189.png' type='server'/>
+    <file src='components/skins/190.png' type='server'/>
+    <file src='components/skins/191.png' type='server'/>
+    <file src='components/skins/192.png' type='server'/>
+    <file src='components/skins/193.png' type='server'/>
+    <file src='components/skins/194.png' type='server'/>
+    <file src='components/skins/195.png' type='server'/>
+    <file src='components/skins/196.png' type='server'/>
+    <file src='components/skins/197.png' type='server'/>
+    <file src='components/skins/198.png' type='server'/>
+    <file src='components/skins/199.png' type='server'/>
+    <file src='components/skins/200.png' type='server'/>
+    <file src='components/skins/201.png' type='server'/>
+    <file src='components/skins/202.png' type='server'/>
+    <file src='components/skins/203.png' type='server'/>
+    <file src='components/skins/204.png' type='server'/>
+    <file src='components/skins/205.png' type='server'/>
+    <file src='components/skins/206.png' type='server'/>
+    <file src='components/skins/207.png' type='server'/>
+    <file src='components/skins/209.png' type='server'/>
+    <file src='components/skins/210.png' type='server'/>
+    <file src='components/skins/211.png' type='server'/>
+    <file src='components/skins/212.png' type='server'/>
+    <file src='components/skins/213.png' type='server'/>
+    <file src='components/skins/214.png' type='server'/>
+    <file src='components/skins/215.png' type='server'/>
+    <file src='components/skins/216.png' type='server'/>
+    <file src='components/skins/217.png' type='server'/>
+    <file src='components/skins/218.png' type='server'/>
+    <file src='components/skins/219.png' type='server'/>
+    <file src='components/skins/220.png' type='server'/>
+    <file src='components/skins/221.png' type='server'/>
+    <file src='components/skins/222.png' type='server'/>
+    <file src='components/skins/223.png' type='server'/>
+    <file src='components/skins/224.png' type='server'/>
+    <file src='components/skins/225.png' type='server'/>
+    <file src='components/skins/226.png' type='server'/>
+    <file src='components/skins/227.png' type='server'/>
+    <file src='components/skins/228.png' type='server'/>
+    <file src='components/skins/229.png' type='server'/>
+    <file src='components/skins/230.png' type='server'/>
+    <file src='components/skins/231.png' type='server'/>
+    <file src='components/skins/232.png' type='server'/>
+    <file src='components/skins/233.png' type='server'/>
+    <file src='components/skins/234.png' type='server'/>
+    <file src='components/skins/235.png' type='server'/>
+    <file src='components/skins/236.png' type='server'/>
+    <file src='components/skins/237.png' type='server'/>
+    <file src='components/skins/238.png' type='server'/>
+    <file src='components/skins/239.png' type='server'/>
+    <file src='components/skins/240.png' type='server'/>
+    <file src='components/skins/241.png' type='server'/>
+    <file src='components/skins/242.png' type='server'/>
+    <file src='components/skins/243.png' type='server'/>
+    <file src='components/skins/244.png' type='server'/>
+    <file src='components/skins/245.png' type='server'/>
+    <file src='components/skins/246.png' type='server'/>
+    <file src='components/skins/247.png' type='server'/>
+    <file src='components/skins/248.png' type='server'/>
+    <file src='components/skins/249.png' type='server'/>
+    <file src='components/skins/250.png' type='server'/>
+    <file src='components/skins/251.png' type='server'/>
+    <file src='components/skins/252.png' type='server'/>
+    <file src='components/skins/253.png' type='server'/>
+    <file src='components/skins/254.png' type='server'/>
+    <file src='components/skins/255.png' type='server'/>
+    <file src='components/skins/256.png' type='server'/>
+    <file src='components/skins/257.png' type='server'/>
+    <file src='components/skins/258.png' type='server'/>
+    <file src='components/skins/259.png' type='server'/>
+    <file src='components/skins/260.png' type='server'/>
+    <file src='components/skins/261.png' type='server'/>
+    <file src='components/skins/262.png' type='server'/>
+    <file src='components/skins/263.png' type='server'/>
+    <file src='components/skins/264.png' type='server'/>
+    <file src='components/skins/265.png' type='server'/>
+    <file src='components/skins/266.png' type='server'/>
+    <file src='components/skins/267.png' type='server'/>
+    <file src='components/skins/268.png' type='server'/>
+    <file src='components/skins/269.png' type='server'/>
+    <file src='components/skins/270.png' type='server'/>
+    <file src='components/skins/271.png' type='server'/>
+    <file src='components/skins/272.png' type='server'/>
+    <file src='components/skins/274.png' type='server'/>
+    <file src='components/skins/275.png' type='server'/>
+    <file src='components/skins/276.png' type='server'/>
+    <file src='components/skins/277.png' type='server'/>
+    <file src='components/skins/278.png' type='server'/>
+    <file src='components/skins/279.png' type='server'/>
+    <file src='components/skins/280.png' type='server'/>
+    <file src='components/skins/281.png' type='server'/>
+    <file src='components/skins/282.png' type='server'/>
+    <file src='components/skins/283.png' type='server'/>
+    <file src='components/skins/284.png' type='server'/>
+    <file src='components/skins/285.png' type='server'/>
+    <file src='components/skins/286.png' type='server'/>
+    <file src='components/skins/287.png' type='server'/>
+    <file src='components/skins/288.png' type='server'/>
+    <file src='components/skins/290.png' type='server'/>
+    <file src='components/skins/291.png' type='server'/>
+    <file src='components/skins/292.png' type='server'/>
+    <file src='components/skins/293.png' type='server'/>
+    <file src='components/skins/294.png' type='server'/>
+    <file src='components/skins/295.png' type='server'/>
+    <file src='components/skins/296.png' type='server'/>
+    <file src='components/skins/297.png' type='server'/>
+    <file src='components/skins/298.png' type='server'/>
+    <file src='components/skins/299.png' type='server'/>
+    <file src='components/skins/300.png' type='server'/>
+    <file src='components/skins/301.png' type='server'/>
+    <file src='components/skins/302.png' type='server'/>
+    <file src='components/skins/303.png' type='server'/>
+    <file src='components/skins/304.png' type='server'/>
+    <file src='components/skins/305.png' type='server'/>
+    <file src='components/skins/306.png' type='server'/>
+    <file src='components/skins/307.png' type='server'/>
+    <file src='components/skins/308.png' type='server'/>
+    <file src='components/skins/309.png' type='server'/>
+    <file src='components/skins/310.png' type='server'/>
+    <file src='components/skins/311.png' type='server'/>
+    <file src='components/skins/312.png' type='server'/>
+
+    <export function="showSettingsWindow" type="client" />
+    <export function="karakterDegistirmeEvent" type="server" />
+    <export function="options_logOut" type="client" />
+	
+    <export function="checkValidCharacterName" type="client" />
+	<export function="checkValidCharacterName" type="server" />
+    <export function="loadSavedData" type="client" />
+    <export function="appendSavedData" type="client" />
+	
+
+    <export function="getTableInformations" type="server" />
+    <export function="updateTables" type="server" />
+    
+    <oop>true</oop>
+    <min_mta_version server="1.5.2" client="1.5.2" />
+</meta>
