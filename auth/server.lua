@@ -104,6 +104,47 @@ end
 addEvent("onJoin", true)
 addEventHandler("onJoin", getRootElement(), clientReady)
 
+function checkPlayerBanState()
+	local player = client or source
+	if not isElement(player) then
+		return
+	end
+
+	local serial = getPlayerSerial(player)
+	local currentBan = getBanBySerial(serial)
+
+	if currentBan and isBan(currentBan) then
+		local admin = getBanAdmin(currentBan)
+		local adminName = "Console"
+
+		if isElement(admin) then
+			adminName = getPlayerName(admin)
+		elseif type(admin) == "string" and admin ~= "" then
+			adminName = admin
+		end
+
+		local unbanTime = getUnbanTime(currentBan)
+		if not unbanTime or unbanTime == 0 then
+			unbanTime = getRealTime().timestamp + 315360000 -- 10 years fallback for permanent bans
+		end
+
+		triggerClientEvent(player, "receiveBanState", player, {
+			isActive = "Y",
+			adminName = adminName,
+			banReason = getBanReason(currentBan) or "Bilinmiyor",
+			banTimestamp = getBanTime(currentBan) or getRealTime().timestamp,
+			expireTimestamp = unbanTime,
+			playerSerial = serial,
+			playerName = getPlayerName(player)
+		})
+		return
+	end
+
+	triggerClientEvent(player, "receiveBanState", player, {isActive = "N"})
+end
+addEvent("checkPlayerBanState", true)
+addEventHandler("checkPlayerBanState", getRootElement(), checkPlayerBanState)
+
 addEventHandler("accounts:login:request", getRootElement(), 
 	function ()
 		local seamless = getElementData(client, "account:seamless:validated")
