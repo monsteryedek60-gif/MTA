@@ -104,6 +104,23 @@ end
 addEvent("onJoin", true)
 addEventHandler("onJoin", getRootElement(), clientReady)
 
+
+if type(getBanBySerial) ~= "function" then
+	function getBanBySerial(serial)
+		if type(getBans) ~= "function" or type(getBanSerial) ~= "function" then
+			return false
+		end
+
+		for _, ban in ipairs(getBans()) do
+			if getBanSerial(ban) == serial then
+				return ban
+			end
+		end
+
+		return false
+	end
+end
+
 function checkPlayerBanState()
 	local player = client or source
 	if not isElement(player) then
@@ -111,14 +128,7 @@ function checkPlayerBanState()
 	end
 
 	local serial = getPlayerSerial(player)
-	local currentBan = false
-
-	for _, ban in ipairs(getBans()) do
-		if getBanSerial(ban) == serial then
-			currentBan = ban
-			break
-		end
-	end
+	local currentBan = getBanBySerial(serial)
 
 	if currentBan then
 		local admin = getBanAdmin(currentBan)
